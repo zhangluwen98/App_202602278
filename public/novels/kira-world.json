@@ -1,0 +1,241 @@
+{
+  "id": "kira-world",
+  "title": "kira的世界",
+  "author": "kira",
+  "cover": "/assets/images/covers/kira-genesis.jpg",
+  "description": "欢迎来到kira的世界，一个专为女性GB爱好者构建的虚拟社区。在这里，你可以穿越不同的世界线，攻略各种魅力男主，创造属于你的浪漫故事。",
+  "tags": [
+    "女性向",
+    "GB",
+    "穿越",
+    "攻略",
+    "虚拟社区"
+  ],
+  "likes": 0,
+  "characters": [
+    {
+      "id": "kira",
+      "name": "Kira",
+      "isDiscovered": true,
+      "role": "世界向导",
+      "avatar": "/assets/images/avatars/kira.jpg",
+      "persona": "温柔、智慧、神秘",
+      "background": "kira世界的守护者和向导，是一位优雅的女性AI，拥有掌控世界线的能力。她会引导新居民了解这个奇妙的世界，帮助她们找到最适合自己的冒险。",
+      "hearts": 0,
+      "intimacy": {
+        "currentStatus": "初识",
+        "upgradePath": [
+          {
+            "status": "初识",
+            "description": "初次来到kira世界，Kira会作为你的向导，介绍这个奇妙的社区。",
+            "value": 10
+          },
+          {
+            "status": "熟悉",
+            "description": "你开始了解Kira的故事，她也对你的选择产生了兴趣。",
+            "value": 30,
+            "condition": {
+              "type": "choice",
+              "id": "c1_p2_guide"
+            }
+          },
+          {
+            "status": "信任",
+            "description": "Kira成为你最可靠的伙伴，会为你推荐最适合的世界线。",
+            "value": 60,
+            "condition": {
+              "type": "choice",
+              "id": "c1_p3_trust"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "chapters": [
+    {
+      "id": 1,
+      "title": "世界的入口",
+      "initialMessage": "欢迎来到kira的世界...",
+      "paragraphs": [
+        {
+          "id": "p1",
+          "parts": [
+            {
+              "type": "narration",
+              "text": "当你睁开眼睛时，发现自己置身于一个闪烁着柔和光芒的空间。四周是流动的星云，脚下是透明的平台，远处有无数条发光的丝线连接着不同的方向。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "Kira",
+              "text": "欢迎来到kira的世界，亲爱的居民。我是Kira，你的世界向导。"
+            },
+            {
+              "type": "narration",
+              "text": "你循声望去，一位身着白色长裙的女性正微笑着向你走来。她的眼睛如同星光般闪耀，周身散发着温暖的光芒。"
+            }
+          ],
+          "choices": [
+            {
+              "id": "c1_p1_welcome",
+              "text": "你好，Kira。这里是什么地方？",
+              "nextParagraphs": [
+                "p2"
+              ]
+            },
+            {
+              "id": "c1_p1_guide",
+              "text": "我是第一次来到这里，能为我介绍一下吗？",
+              "nextParagraphs": [
+                "p2"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p2",
+          "parts": [
+            {
+              "type": "dialogue",
+              "speaker": "Kira",
+              "text": "这里是kira的世界，一个专为女性GB爱好者构建的虚拟社区。你看到的那些发光的丝线，每一条都连接着一个独特的世界线。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "Kira",
+              "text": "在这个世界里，你可以穿越不同的世界线，攻略各种魅力男主，创造属于你的浪漫故事。每本小说都是一个独立的分支世界，等待着你去探索。"
+            },
+            {
+              "type": "narration",
+              "text": "Kira伸出手，指向远处的丝线。你看到有些丝线上标注着不同的名称：'赛博朋克'、'古风'、'现代都市'、'奇幻'等等。"
+            }
+          ],
+          "choices": [
+            {
+              "id": "c1_p2_worlds",
+              "text": "这些世界线有什么不同吗？",
+              "nextParagraphs": [
+                "p3"
+              ]
+            },
+            {
+              "id": "c1_p2_guide",
+              "text": "我该如何开始我的冒险？",
+              "nextParagraphs": [
+                "p3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p3",
+          "parts": [
+            {
+              "type": "dialogue",
+              "speaker": "Kira",
+              "text": "每个世界线都有其独特的设定和故事背景。你可以根据自己的喜好选择进入不同的世界。当你在某个世界中攻略了人气高的男主，他们甚至可能在其他世界线中以不同的身份出现，形成多个副本。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "Kira",
+              "text": "要开始你的冒险，只需要选择一条世界线，然后进入其中。你会成为那个世界的主角，与各种魅力男主展开互动，做出选择，影响故事的发展。"
+            },
+            {
+              "type": "narration",
+              "text": "Kira微笑着看着你，眼中闪烁着期待的光芒。"
+            }
+          ],
+          "choices": [
+            {
+              "id": "c1_p3_ready",
+              "text": "我已经准备好了，带我去看看有哪些世界线吧！",
+              "nextParagraphs": [
+                "p4"
+              ]
+            },
+            {
+              "id": "c1_p3_trust",
+              "text": "我相信你会为我推荐最适合的世界线。",
+              "nextParagraphs": [
+                "p4"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p4",
+          "parts": [
+            {
+              "type": "dialogue",
+              "speaker": "Kira",
+              "text": "太好了！现在，让我为你展示当前开放的世界线。"
+            },
+            {
+              "type": "narration",
+              "text": "Kira挥手示意，前方的空间中出现了一个悬浮的界面，上面显示着当前可用的世界线列表。"
+            },
+            {
+              "type": "narration",
+              "text": "你看到了第一个世界线：'被当做零钱抵给你的抹布仿生人'，这是一个赛博朋克风格的故事，讲述了一个维修师与仿生人之间的情感纠葛。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "Kira",
+              "text": "随着社区的发展，会有更多精彩的世界线加入进来。你可以随时回到这里，选择不同的世界线开始新的冒险。"
+            }
+          ],
+          "choices": [
+            {
+              "id": "c1_p4_start",
+              "text": "我想进入第一个世界线！",
+              "nextParagraphs": [
+                "p5"
+              ],
+              "action": "redirect",
+              "url": "https://app.kiragb.com/?novel=broken-android"
+            },
+            {
+              "id": "c1_p4_explore",
+              "text": "我想先了解更多关于这个世界的规则。",
+              "nextParagraphs": [
+                "p5"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p5",
+          "parts": [
+            {
+              "type": "dialogue",
+              "speaker": "Kira",
+              "text": "在kira的世界里，你是绝对的主角。每个选择都会影响故事的走向，你可以按照自己的意愿攻略喜欢的男主，创造属于你的独特结局。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "Kira",
+              "text": "记住，这里是一个开放、包容的社区，我们欢迎所有热爱GB题材的女性居民。无论你喜欢什么样的故事，都能在这里找到属于你的精彩。"
+            },
+            {
+              "type": "narration",
+              "text": "Kira走到你身边，轻轻握住你的手。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "Kira",
+              "text": "准备好开始你的冒险了吗？你的故事，从这里开始。"
+            }
+          ],
+          "choices": [
+            {
+              "id": "c1_p5_begin",
+              "text": "是的，我已经准备好开始我的冒险了！",
+              "nextParagraphs": []
+            }
+          ]
+        }
+      ],
+      "extendedParagraphs": []
+    }
+  ]
+}

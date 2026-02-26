@@ -122,9 +122,11 @@ export function validateNovelsList(novelsList) {
 
         try {
             const novelData = readJsonFile(novelFile);
+            console.log(`Validating novel: ${novelMeta.id}`);
             validateNovelData(novelData, novelMeta.id);
         } catch (e) {
-             throw new Error(`Error validating novel ${novelMeta.id}:`, e);
+            console.error(`Error validating novel ${novelMeta.id}:`, e);
+            throw new Error(`Error validating novel ${novelMeta.id}: ${e.message}`);
         }
     }
     

@@ -1,7 +1,7 @@
 {
   "id": "broken-android",
   "title": "被当做零钱抵给你的抹布仿生人",
-  "author": "佚名",
+  "author": "九品芝麻糊",
   "cover": "/assets/images/covers/broken-android.jpg",
   "description": "在这个钢铁都市里，你意外收留了一个被当做垃圾的漂亮仿生人。他身上的伤痕和眼底的微光，会如何改变你冰冷的生活？",
   "tags": [
@@ -10,6 +10,7 @@
     "仿生人",
     "纯爱"
   ],
+  "likes": 0,
   "characters": [
     {
       "id": "boss",
@@ -19,6 +20,7 @@
       "avatar": "/assets/images/avatars/boss.jpg",
       "persona": "市侩、精明、贪财",
       "background": "高级星区一家维修铺的老板，精于算计，总想从交易中多赚一点。",
+      "hearts": 0,
       "relationships": {
         "current": "陌生人",
         "history": []
@@ -37,6 +39,7 @@
       "avatar": "/assets/images/avatars/xingyao.jpg",
       "persona": "温柔、顺从、深情、自卑",
       "background": "原本是高级仿生人，因核心控制器故障被丢弃，被维修师偶然收留。对主人有深深的依恋和自卑感。",
+      "hearts": 0,
       "relationships": {
         "current": "初识",
         "history": []

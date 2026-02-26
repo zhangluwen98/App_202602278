@@ -1,0 +1,1525 @@
+{
+  "id": "emperor-consort",
+  "title": "新帝 x 大肚子的前皇夫",
+  "author": "抹茶红豆派派派",
+  "cover": "/assets/images/covers/emperor-consort.jpg",
+  "description": "先帝驾崩，新帝即位，而在先帝去时便已有孕的皇夫顾宴清，成了新朝一个尴尬的存在。新帝赵闻珂对他关怀备至，这份温柔背后究竟藏着怎样的情感？",
+  "tags": [
+    "古风",
+    "宫廷",
+    "GB",
+    "帝王",
+    "孕夫"
+  ],
+  "status": "Incomplete",
+  "likes": 0,
+  "characters": [
+    {
+      "id": "gu-yanqing",
+      "name": "顾宴清",
+      "isDiscovered": true,
+      "role": "前皇夫",
+      "avatar": "/assets/images/avatars/gu-yanqing.jpg",
+      "persona": "温柔、隐忍、端庄",
+      "background": "顾家嫡子，先帝的皇夫，在先帝驾崩时已有身孕。如今被新帝赵闻珂留在宫中，成为名义上的皇夫。",
+      "hearts": 0
+    },
+    {
+      "id": "zhao-wenke",
+      "name": "赵闻珂（我）",
+      "isDiscovered": true,
+      "role": "新帝",
+      "avatar": "/assets/images/avatars/zhao-wenke.jpg",
+      "persona": "果断、勤勉、深情",
+      "background": "先帝酒后的意外，卑微宫人所出。被打发到贫瘠封地，先帝崩逝后赶回即位，定称号瑶光。",
+      "hearts": 0
+    },
+    {
+      "id": "gu-yanning",
+      "name": "顾宴宁",
+      "isDiscovered": true,
+      "role": "顾宴清的弟弟",
+      "avatar": "/assets/images/avatars/gu-yanning.jpg",
+      "persona": "活泼、直率",
+      "background": "顾宴清的胞弟，年仅十五岁，未出阁。每月被允许入宫相伴顾宴清数日。",
+      "hearts": 0
+    },
+    {
+      "id": "gongren",
+      "name": "宫人",
+      "isDiscovered": true,
+      "role": "服侍顾宴清的宫人",
+      "avatar": "/assets/images/avatars/gongren.jpg",
+      "persona": "恭顺、谨慎",
+      "background": "长明宫的宫人，负责服侍顾宴清。",
+      "hearts": 0
+    },
+    {
+      "id": "xihedi",
+      "name": "羲和帝",
+      "isDiscovered": true,
+      "role": "先帝",
+      "avatar": "/assets/images/avatars/xihedi.jpg",
+      "persona": "体弱、威严",
+      "background": "先帝，赵闻珂的姐姐，顾宴清的前妻。自幼体弱，常年静养，驾崩后由赵闻珂继位。",
+      "hearts": 0
+    }
+  ],
+  "chapters": [
+    {
+      "id": 1,
+      "title": "长明宫烛",
+      "initialMessage": "夜已深，我处理完政务，想起长明宫的烛火还亮着...",
+      "paragraphs": [
+        {
+          "id": "p1-1",
+          "parts": [
+            {
+              "type": "narration",
+              "text": "夜已深，御书房的灯还亮着。我揉了揉发疼的太阳穴，放下手中的奏折。太湖发大水的事让我焦心不已，已经连续批阅了三个时辰。"
+            },
+            {
+              "type": "narration",
+              "text": "突然想起长明宫的烛火，那个坐在榻边的人，他应该还在等我。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "赵闻珂（我）",
+              "text": "备轿，去长明宫。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "宫人",
+              "text": "是，陛下。"
+            },
+            {
+              "type": "narration",
+              "text": "轿辇平稳地行驶在宫道上，我望着窗外的夜色，思绪不禁飘回到三个月前。"
+            },
+            {
+              "type": "narration",
+              "text": "那是先帝崩逝后第三日，我一身风尘踏入灵堂。殿内只余他一人跪在棺椁旁，我屏退左右，走到他面前。目光落在他身上，从他苍白的脸，缓缓移到他仍不明显却已有端倪的腹间。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "赵闻珂（我）",
+              "text": "这些日子，难为你了。"
+            },
+            {
+              "type": "narration",
+              "text": "我的声音沙哑，透着未褪的疲惫。"
+            },
+            {
+              "type": "narration",
+              "text": "他微微点头，没有说话。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "赵闻珂（我）",
+              "text": "皇姐的孩子，我会视如己出。"
+            },
+            {
+              "type": "narration",
+              "text": "我知道，这句话对他来说意味着什么。在这充满变数的朝堂上，这是我能给他的最大承诺。"
+            }
+          ],
+          "choices": [
+            {
+              "id": "c1_p1_continue",
+              "text": "继续前往长明宫",
+              "nextParagraphs": ["p1-2"]
+            },
+            {
+              "id": "c1_p1_memory",
+              "text": "回忆六年前的除夕宫宴",
+              "nextParagraphs": ["p1-3"]
+            }
+          ]
+        },
+        {
+          "id": "p1-2",
+          "parts": [
+            {
+              "type": "narration",
+              "text": "轿辇停在长明宫前，我快步走了进去。"
+            },
+            {
+              "type": "narration",
+              "text": "顾宴清正坐在榻边，背脊习惯性挺得笔直，是多年仪态习惯使然。他穿着素白内袍，长发散在身后，手搭在微微隆起的小腹上。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "顾宴清",
+              "text": "陛下。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "赵闻珂（我）",
+              "text": "怎么还没睡？说了多少次，你如今身子重了，不必等我。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "顾宴清",
+              "text": "臣妾只是...担心陛下太过劳累。"
+            },
+            {
+              "type": "narration",
+              "text": "他的声音很轻，带着一丝不易察觉的关切。"
+            }
+          ],
+          "choices": [
+            {
+              "id": "c1_p2_care",
+              "text": "握住他的手，表达关心",
+              "nextParagraphs": ["p1-4"]
+            },
+            {
+              "id": "c1_p2_business",
+              "text": "询问他的身体状况",
+              "nextParagraphs": ["p1-5"]
+            }
+          ]
+        },
+        {
+          "id": "p1-3",
+          "parts": [
+            {
+              "type": "narration",
+              "text": "六年前的除夕宫宴，是我第一次见到他。"
+            },
+            {
+              "type": "narration",
+              "text": "那时我奉诏回京，坐在殿末的阴影里。酒过三巡，羲和帝的目光冷冷落在我身上。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "羲和帝",
+              "text": "闻珂妹妹难得回京，怎么坐得那样远？倒显得本宫这个做姐姐的不知礼数了。过来，替皇姐斟酒。"
+            },
+            {
+              "type": "narration",
+              "text": "殿内空气骤然一凝。让一位皇女当众行宫人之职，此等折辱，意图昭然。"
+            },
+            {
+              "type": "narration",
+              "text": "我静立片刻，面上无波无澜，正准备上前接过金壶。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "顾宴清",
+              "text": "殿下，御酒性烈，您今日已饮了不少。太医嘱咐需仔细将养。您还是要以身体为重。"
+            },
+            {
+              "type": "narration",
+              "text": "他的声音不高，语气平和，却如同一股清泉，化解了殿内的尴尬。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "羲和帝",
+              "text": "罢了。"
+            },
+            {
+              "type": "narration",
+              "text": "我无声地退后一步，将金壶递还宫人，转身走回那片阴影里。自始至终，未发一言，却悄悄记住了那个说话的人。"
+            }
+          ],
+          "choices": [
+            {
+              "id": "c1_p3_return",
+              "text": "回到现实，前往长明宫",
+              "nextParagraphs": ["p1-2"]
+            }
+          ]
+        },
+        {
+          "id": "p1-4",
+          "parts": [
+            {
+              "type": "narration",
+              "text": "我走到他身边，握住他的手。他的手有些凉，我用自己的掌心温暖着他。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "赵闻珂（我）",
+              "text": "有你关心，再累也值得。" 
+            },
+            {
+              "type": "dialogue",
+              "speaker": "顾宴清",
+              "text": "陛下..."
+            },
+            {
+              "type": "narration",
+              "text": "他的耳尖微微发红，目光低垂，却没有抽回手。"
+            },
+            {
+              "type": "narration",
+              "text": "我坐在他身边，伸手轻轻摸了摸他的小腹。那里有一个小生命，是皇姐留下的唯一血脉。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "赵闻珂（我）",
+              "text": "孩子今天乖吗？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "顾宴清",
+              "text": "回陛下，今日很安静。太医说一切都好。"
+            }
+          ],
+          "choices": [
+            {
+              "id": "c1_p4_stay",
+              "text": "留在长明宫过夜",
+              "nextParagraphs": ["p1-6"]
+            },
+            {
+              "id": "c1_p4_return",
+              "text": "返回御书房处理政务",
+              "nextParagraphs": ["p1-7"]
+            }
+          ]
+        },
+        {
+          "id": "p1-5",
+          "parts": [
+            {
+              "type": "narration",
+              "text": "我坐在他对面，仔细打量着他的气色。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "赵闻珂（我）",
+              "text": "太医今日来请过脉了？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "顾宴清",
+              "text": "午后已来过，一切安好。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "赵闻珂（我）",
+              "text": "太医开的那些安胎补药，务必记得每日按时饮用，一碗都不能少。"
+            },
+            {
+              "type": "narration",
+              "text": "我语气严肃，心里却满是担忧。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "顾宴清",
+              "text": "臣妾知道了，陛下放心。"
+            }
+          ],
+          "choices": [
+            {
+              "id": "c1_p5_stay",
+              "text": "留在长明宫过夜",
+              "nextParagraphs": ["p1-6"]
+            },
+            {
+              "id": "c1_p5_return",
+              "text": "返回御书房处理政务",
+              "nextParagraphs": ["p1-7"]
+            }
+          ]
+        },
+        {
+          "id": "p1-6",
+          "parts": [
+            {
+              "type": "narration",
+              "text": "我让人准备了热水，亲自为他宽衣。"
+            },
+            {
+              "type": "narration",
+              "text": "他有些局促，却还是顺从地让我服侍。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "顾宴清",
+              "text": "陛下，这不合规矩..."
+            },
+            {
+              "type": "dialogue",
+              "speaker": "赵闻珂（我）",
+              "text": "在你面前，我不是陛下，只是赵闻珂。"
+            },
+            {
+              "type": "narration",
+              "text": "他的身体微微一震，抬起头看着我，眼中闪过一丝复杂的情绪。"
+            },
+            {
+              "type": "narration",
+              "text": "我们躺在一起，他的头靠在我肩上。窗外的月光洒进来，照在他的脸上，显得格外温柔。"
+            }
+          ],
+          "choices": [
+            {
+              "id": "c1_p6_next",
+              "text": "进入第二章",
+              "action": "redirect",
+              "url": "https://app.kiragb.com/?novel=emperor-consort#chapter-2",
+              "nextParagraphs": []
+            }
+          ]
+        },
+        {
+          "id": "p1-7",
+          "parts": [
+            {
+              "type": "narration",
+              "text": "我站起身，整理了一下朝服。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "赵闻珂（我）",
+              "text": "早些休息，明日我再来看你。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "顾宴清",
+              "text": "陛下也要注意身体。"
+            },
+            {
+              "type": "narration",
+              "text": "我点点头，转身走出长明宫。夜色更深了，御书房的灯还在等着我。"
+            },
+            {
+              "type": "narration",
+              "text": "可我的心，却留在了长明宫那个素白的身影上。"
+            }
+          ],
+          "choices": [
+            {
+              "id": "c1_p7_next",
+              "text": "进入第二章",
+              "action": "redirect",
+              "url": "https://app.kiragb.com/?novel=emperor-consort#chapter-2",
+              "nextParagraphs": []
+            }
+          ]
+        }
+      ],
+      "extendedParagraphs": []
+    },
+    {
+      "id": 2,
+      "title": "心湖微澜",
+      "initialMessage": "今日难得政务不多，我早早处理完，便往长明宫赶去...",
+      "paragraphs": [
+        {
+          "id": "p2-1",
+          "parts": [
+            {
+              "type": "narration",
+              "text": "今日难得政务不多，我早早处理完，便往长明宫赶去。"
+            },
+            {
+              "type": "narration",
+              "text": "推开门，看见顾宴清正坐在镜前，宫人在为他梳妆。他穿着一件月白色的长袍，长发散在身后，更显得清瘦。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "宫人",
+              "text": "陛下驾到。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "顾宴清",
+              "text": "陛下。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "赵闻珂（我）",
+              "text": "不必多礼。今日感觉如何？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "顾宴清",
+              "text": "回陛下，一切安好。"
+            },
+            {
+              "type": "narration",
+              "text": "我注意到他眼下有淡淡的乌青，心里不禁一疼。"
+            }
+          ],
+          "choices": [
+            {
+              "id": "c2_p1_ask",
+              "text": "询问他是否休息不好",
+              "nextParagraphs": ["p2-2"]
+            },
+            {
+              "id": "c2_p1_gift",
+              "text": "拿出准备好的礼物",
+              "nextParagraphs": ["p2-3"]
+            }
+          ]
+        },
+        {
+          "id": "p2-2",
+          "parts": [
+            {
+              "type": "dialogue",
+              "speaker": "赵闻珂（我）",
+              "text": "你眼下有乌青，可是昨夜没休息好？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "顾宴清",
+              "text": "回陛下，只是孩子夜里有些闹..."
+            },
+            {
+              "type": "narration",
+              "text": "他的声音越来越小，目光低垂，像是做错事的孩子。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "赵闻珂（我）",
+              "text": "怎么不派人来叫我？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "顾宴清",
+              "text": "陛下日理万机，臣妾不敢打扰..."
+            },
+            {
+              "type": "narration",
+              "text": "我走到他身边，伸手轻轻摸了摸他的脸。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "赵闻珂（我）",
+              "text": "在我心里，没有什么比你和孩子更重要。"
+            }
+          ],
+          "choices": [
+            {
+              "id": "c2_p2_care",
+              "text": "让他躺下休息",
+              "nextParagraphs": ["p2-4"]
+            },
+            {
+              "id": "c2_p2_talk",
+              "text": "和他聊聊孩子",
+              "nextParagraphs": ["p2-5"]
+            }
+          ]
+        },
+        {
+          "id": "p2-3",
+          "parts": [
+            {
+              "type": "narration",
+              "text": "我从袖中取出一个锦盒，放在他面前。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "赵闻珂（我）",
+              "text": "这是我让人从江南带来的珍珠粉，听说对孕妇皮肤好。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "顾宴清",
+              "text": "陛下...这太贵重了..."
+            },
+            {
+              "type": "dialogue",
+              "speaker": "赵闻珂（我）",
+              "text": "对你来说，再贵重都值得。"
+            },
+            {
+              "type": "narration",
+              "text": "他打开锦盒，里面的珍珠粉在阳光下闪着柔和的光。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "顾宴清",
+              "text": "谢陛下隆恩。"
+            }
+          ],
+          "choices": [
+            {
+              "id": "c2_p3_chat",
+              "text": "和他聊聊最近的生活",
+              "nextParagraphs": ["p2-6"]
+            },
+            {
+              "id": "c2_p3_walk",
+              "text": "陪他在花园散步",
+              "nextParagraphs": ["p2-7"]
+            }
+          ]
+        },
+        {
+          "id": "p2-4",
+          "parts": [
+            {
+              "type": "narration",
+              "text": "我扶他躺下，为他盖好被子。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "赵闻珂（我）",
+              "text": "好好休息，我就在这里陪着你。"
+            },
+            {
+              "type": "narration",
+              "text": "他听话地闭上眼，不一会儿就睡着了。"
+            },
+            {
+              "type": "narration",
+              "text": "我坐在床边，看着他的睡颜，心中涌起一股暖流。"
+            },
+            {
+              "type": "narration",
+              "text": "他的睫毛很长，像蝴蝶的翅膀，在脸上投下淡淡的阴影。"
+            }
+          ],
+          "choices": [
+            {
+              "id": "c2_p4_stay",
+              "text": "继续守着他",
+              "nextParagraphs": ["p2-8"]
+            },
+            {
+              "id": "c2_p4_work",
+              "text": "处理一些政务",
+              "nextParagraphs": ["p2-9"]
+            }
+          ]
+        },
+        {
+          "id": "p2-5",
+          "parts": [
+            {
+              "type": "dialogue",
+              "speaker": "赵闻珂（我）",
+              "text": "孩子最近可有什么动静？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "顾宴清",
+              "text": "回陛下，孩子很活泼，常常在臣妾腹中乱动。"
+            },
+            {
+              "type": "narration",
+              "text": "他的手轻轻放在腹部，眼中满是温柔。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "赵闻珂（我）",
+              "text": "让我摸摸。"
+            },
+            {
+              "type": "narration",
+              "text": "我将手放在他的腹部，不一会儿就感受到了轻微的胎动。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "赵闻珂（我）",
+              "text": "真神奇..."
+            }
+          ],
+          "choices": [
+            {
+              "id": "c2_p5_name",
+              "text": "和他讨论孩子的名字",
+              "nextParagraphs": ["p2-10"]
+            },
+            {
+              "id": "c2_p5_future",
+              "text": "和他聊聊未来",
+              "nextParagraphs": ["p2-11"]
+            }
+          ]
+        },
+        {
+          "id": "p2-6",
+          "parts": [
+            {
+              "type": "dialogue",
+              "speaker": "赵闻珂（我）",
+              "text": "最近在宫里可还习惯？可有什么需要的？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "顾宴清",
+              "text": "回陛下，一切都好。陛下已经为臣妾安排得很周全了。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "赵闻珂（我）",
+              "text": "宴宁最近可有入宫？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "顾宴清",
+              "text": "回陛下，前几日刚来过。他很想念陛下。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "赵闻珂（我）",
+              "text": "改日让他多住几日，也好陪陪你。"
+            }
+          ],
+          "choices": [
+            {
+              "id": "c2_p6_read",
+              "text": "陪他读书",
+              "nextParagraphs": ["p2-12"]
+            },
+            {
+              "id": "c2_p6_tea",
+              "text": "和他品茗聊天",
+              "nextParagraphs": ["p2-13"]
+            }
+          ]
+        },
+        {
+          "id": "p2-7",
+          "parts": [
+            {
+              "type": "narration",
+              "text": "我扶着他慢慢走到花园里。秋天的花园很美，菊花盛开，香气扑鼻。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "赵闻珂（我）",
+              "text": "这里的菊花可是你最爱的品种。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "顾宴清",
+              "text": "陛下记得？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "赵闻珂（我）",
+              "text": "你的喜好，我都记得。"
+            },
+            {
+              "type": "narration",
+              "text": "他的脸微微发红，别过脸去。"
+            },
+            {
+              "type": "narration",
+              "text": "我们在石凳上坐下，他靠在我肩上。"
+            }
+          ],
+          "choices": [
+            {
+              "id": "c2_p7_memory",
+              "text": "回忆过去的事情",
+              "nextParagraphs": ["p2-14"]
+            },
+            {
+              "id": "c2_p7_promise",
+              "text": "向他许下承诺",
+              "nextParagraphs": ["p2-15"]
+            }
+          ]
+        },
+        {
+          "id": "p2-8",
+          "parts": [
+            {
+              "type": "narration",
+              "text": "我就这样守着他，直到他醒来。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "顾宴清",
+              "text": "陛下...您一直在这里？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "赵闻珂（我）",
+              "text": "嗯，我不想离开你。"
+            },
+            {
+              "type": "narration",
+              "text": "他的眼中闪过一丝感动，伸手握住我的手。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "顾宴清",
+              "text": "陛下..."
+            }
+          ],
+          "choices": [
+            {
+              "id": "c2_p8_confess",
+              "text": "向他表白心意",
+              "nextParagraphs": ["p2-16"]
+            },
+            {
+              "id": "c2_p8_dinner",
+              "text": "一起用晚膳",
+              "nextParagraphs": ["p2-17"]
+            }
+          ]
+        },
+        {
+          "id": "p2-9",
+          "parts": [
+            {
+              "type": "narration",
+              "text": "我在一旁的书案上处理政务，不时抬头看看他。"
+            },
+            {
+              "type": "narration",
+              "text": "他睡得很安稳，呼吸均匀。"
+            },
+            {
+              "type": "narration",
+              "text": "不知过了多久，他慢慢醒来。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "顾宴清",
+              "text": "陛下还在处理政务？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "赵闻珂（我）",
+              "text": "嗯，有些紧急的事需要处理。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "顾宴清",
+              "text": "陛下辛苦了。"
+            }
+          ],
+          "choices": [
+            {
+              "id": "c2_p9_rest",
+              "text": "休息一下，陪他聊天",
+              "nextParagraphs": ["p2-18"]
+            },
+            {
+              "id": "c2_p9_continue",
+              "text": "继续处理政务",
+              "nextParagraphs": ["p2-19"]
+            }
+          ]
+        },
+        {
+          "id": "p2-10",
+          "parts": [
+            {
+              "type": "dialogue",
+              "speaker": "顾宴清",
+              "text": "陛下，您可否为这孩子赐名？"
+            },
+            {
+              "type": "narration",
+              "text": "他的目光充满期待，又带着一丝不安。"
+            }
+          ],
+          "choices": [
+            {
+              "id": "c2_p10_boy",
+              "text": "为男孩取名",
+              "nextParagraphs": ["p2-20"]
+            },
+            {
+              "id": "c2_p10_girl",
+              "text": "为女孩取名",
+              "nextParagraphs": ["p2-21"]
+            }
+          ]
+        },
+        {
+          "id": "p2-11",
+          "parts": [
+            {
+              "type": "dialogue",
+              "speaker": "赵闻珂（我）",
+              "text": "等孩子出生，我们一起看着他长大。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "顾宴清",
+              "text": "陛下..."
+            },
+            {
+              "type": "dialogue",
+              "speaker": "赵闻珂（我）",
+              "text": "我知道你心里的顾虑，但我向你保证，无论发生什么，我都会保护你和孩子。"
+            },
+            {
+              "type": "narration",
+              "text": "他的眼中泛起泪光，轻轻点头。"
+            }
+          ],
+          "choices": [
+            {
+              "id": "c2_p11_hug",
+              "text": "拥抱他",
+              "nextParagraphs": ["p2-22"]
+            },
+            {
+              "id": "c2_p11_kiss",
+              "text": "吻他额头",
+              "nextParagraphs": ["p2-23"]
+            }
+          ]
+        },
+        {
+          "id": "p2-12",
+          "parts": [
+            {
+              "type": "narration",
+              "text": "我们一起坐在榻上，他为我读起了书。"
+            },
+            {
+              "type": "narration",
+              "text": "他的声音很好听，像春风拂过耳畔。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "赵闻珂（我）",
+              "text": "你的声音真好听。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "顾宴清",
+              "text": "陛下取笑臣妾了。"
+            },
+            {
+              "type": "narration",
+              "text": "他的耳尖发红，却没有停止读书。"
+            }
+          ],
+          "choices": [
+            {
+              "id": "c2_p12_listen",
+              "text": "继续听他读书",
+              "nextParagraphs": ["p2-24"]
+            },
+            {
+              "id": "c2_p12_talk",
+              "text": "和他讨论书中内容",
+              "nextParagraphs": ["p2-25"]
+            }
+          ]
+        },
+        {
+          "id": "p2-13",
+          "parts": [
+            {
+              "type": "narration",
+              "text": "宫人端来热茶，我们相对而坐。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "赵闻珂（我）",
+              "text": "这是今年的新茶，你尝尝。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "顾宴清",
+              "text": "多谢陛下。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "赵闻珂（我）",
+              "text": "最近朝堂上的事，你可听说了什么？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "顾宴清",
+              "text": "臣妾只在宫中，不曾听闻。"
+            }
+          ],
+          "choices": [
+            {
+              "id": "c2_p13_share",
+              "text": "和他分享朝堂事",
+              "nextParagraphs": ["p2-26"]
+            },
+            {
+              "id": "c2_p13_personal",
+              "text": "和他聊私人话题",
+              "nextParagraphs": ["p2-27"]
+            }
+          ]
+        },
+        {
+          "id": "p2-14",
+          "parts": [
+            {
+              "type": "dialogue",
+              "speaker": "赵闻珂（我）",
+              "text": "还记得六年前的除夕宫宴吗？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "顾宴清",
+              "text": "臣妾记得。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "赵闻珂（我）",
+              "text": "那时你为我解围，我一直记在心里。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "顾宴清",
+              "text": "那只是臣妾的本分。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "赵闻珂（我）",
+              "text": "对我来说，那是黑暗中的一束光。"
+            }
+          ],
+          "choices": [
+            {
+              "id": "c2_p14_feelings",
+              "text": "表达对他的感情",
+              "nextParagraphs": ["p2-28"]
+            },
+            {
+              "id": "c2_p14_gratitude",
+              "text": "表达感谢",
+              "nextParagraphs": ["p2-29"]
+            }
+          ]
+        },
+        {
+          "id": "p2-15",
+          "parts": [
+            {
+              "type": "dialogue",
+              "speaker": "赵闻珂（我）",
+              "text": "我向你承诺，此生此世，我会好好待你。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "顾宴清",
+              "text": "陛下..."
+            },
+            {
+              "type": "dialogue",
+              "speaker": "赵闻珂（我）",
+              "text": "不是作为陛下，而是作为赵闻珂，我喜欢你。"
+            },
+            {
+              "type": "narration",
+              "text": "他的身体一震，难以置信地看着我。"
+            }
+          ],
+          "choices": [
+            {
+              "id": "c2_p15_wait",
+              "text": "等他回应",
+              "nextParagraphs": ["p2-30"]
+            },
+            {
+              "id": "c2_p15_hold",
+              "text": "握住他的手",
+              "nextParagraphs": ["p2-31"]
+            }
+          ]
+        },
+        {
+          "id": "p2-16",
+          "parts": [
+            {
+              "type": "dialogue",
+              "speaker": "赵闻珂（我）",
+              "text": "宴清，我喜欢你。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "顾宴清",
+              "text": "陛下...臣妾..."
+            },
+            {
+              "type": "dialogue",
+              "speaker": "赵闻珂（我）",
+              "text": "我知道你心里有顾虑，但我是真心的。"
+            },
+            {
+              "type": "narration",
+              "text": "他的眼泪流了下来，扑进我怀里。"
+            }
+          ],
+          "choices": [
+            {
+              "id": "c2_p16_comfort",
+              "text": "安慰他",
+              "nextParagraphs": ["p2-32"]
+            }
+          ]
+        },
+        {
+          "id": "p2-17",
+          "parts": [
+            {
+              "type": "narration",
+              "text": "宫人摆上晚膳，我们一起用饭。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "赵闻珂（我）",
+              "text": "这些都是你喜欢的菜。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "顾宴清",
+              "text": "陛下记得臣妾的喜好，臣妾很感动。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "赵闻珂（我）",
+              "text": "你的一切，我都记得。"
+            }
+          ],
+          "choices": [
+            {
+              "id": "c2_p17_end",
+              "text": "结束本章",
+              "nextParagraphs": []
+            },
+            {
+              "id": "c2_p17_like",
+              "text": "为故事点赞",
+              "action": "like",
+              "nextParagraphs": []
+            }
+          ]
+        },
+        {
+          "id": "p2-18",
+          "parts": [
+            {
+              "type": "dialogue",
+              "speaker": "赵闻珂（我）",
+              "text": "不处理了，陪你说说话。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "顾宴清",
+              "text": "陛下政务繁忙，臣妾不敢耽误。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "赵闻珂（我）",
+              "text": "和你在一起，才是最重要的事。"
+            }
+          ],
+          "choices": [
+            {
+              "id": "c2_p18_end",
+              "text": "结束本章",
+              "nextParagraphs": []
+            }
+          ]
+        },
+        {
+          "id": "p2-19",
+          "parts": [
+            {
+              "type": "narration",
+              "text": "我继续处理政务，他在一旁安静地看着。"
+            },
+            {
+              "type": "narration",
+              "text": "不知过了多久，我终于处理完了所有事情。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "赵闻珂（我）",
+              "text": "我们休息吧。"
+            }
+          ],
+          "choices": [
+            {
+              "id": "c2_p19_end",
+              "text": "结束本章",
+              "nextParagraphs": []
+            }
+          ]
+        },
+        {
+          "id": "p2-20",
+          "parts": [
+            {
+              "type": "dialogue",
+              "speaker": "赵闻珂（我）",
+              "text": "如果是男孩，就叫赵慕清吧。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "顾宴清",
+              "text": "慕清..."
+            },
+            {
+              "type": "dialogue",
+              "speaker": "赵闻珂（我）",
+              "text": "慕恋宴清，怎么样？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "顾宴清",
+              "text": "陛下...这名字很好。"
+            }
+          ],
+          "choices": [
+            {
+              "id": "c2_p20_end",
+              "text": "结束本章",
+              "nextParagraphs": []
+            }
+          ]
+        },
+        {
+          "id": "p2-21",
+          "parts": [
+            {
+              "type": "dialogue",
+              "speaker": "赵闻珂（我）",
+              "text": "如果是女孩，就叫赵念清吧。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "顾宴清",
+              "text": "念清..."
+            },
+            {
+              "type": "dialogue",
+              "speaker": "赵闻珂（我）",
+              "text": "思念宴清，如何？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "顾宴清",
+              "text": "陛下...臣妾很喜欢。"
+            }
+          ],
+          "choices": [
+            {
+              "id": "c2_p21_end",
+              "text": "结束本章",
+              "nextParagraphs": []
+            }
+          ]
+        },
+        {
+          "id": "p2-22",
+          "parts": [
+            {
+              "type": "narration",
+              "text": "我将他拥入怀中，轻轻拍着他的背。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "赵闻珂（我）",
+              "text": "一切都会好起来的。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "顾宴清",
+              "text": "有陛下在，臣妾什么都不怕。"
+            }
+          ],
+          "choices": [
+            {
+              "id": "c2_p22_end",
+              "text": "结束本章",
+              "nextParagraphs": []
+            }
+          ]
+        },
+        {
+          "id": "p2-23",
+          "parts": [
+            {
+              "type": "narration",
+              "text": "我轻轻吻了吻他的额头。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "赵闻珂（我）",
+              "text": "相信我。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "顾宴清",
+              "text": "嗯，我相信陛下。"
+            }
+          ],
+          "choices": [
+            {
+              "id": "c2_p23_end",
+              "text": "结束本章",
+              "nextParagraphs": []
+            }
+          ]
+        },
+        {
+          "id": "p2-24",
+          "parts": [
+            {
+              "type": "narration",
+              "text": "他继续读书，我静静听着。"
+            },
+            {
+              "type": "narration",
+              "text": "阳光透过窗户洒进来，落在他身上，为他镀上了一层金色的光晕。"
+            },
+            {
+              "type": "narration",
+              "text": "我突然觉得，这样的时光，就是我想要的幸福。"
+            }
+          ],
+          "choices": [
+            {
+              "id": "c2_p24_end",
+              "text": "结束本章",
+              "nextParagraphs": []
+            }
+          ]
+        },
+        {
+          "id": "p2-25",
+          "parts": [
+            {
+              "type": "dialogue",
+              "speaker": "赵闻珂（我）",
+              "text": "你觉得书中的主人公做得对吗？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "顾宴清",
+              "text": "臣妾觉得，他只是在做自己认为对的事。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "赵闻珂（我）",
+              "text": "就像你当年为我解围一样。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "顾宴清",
+              "text": "那是臣妾应该做的。"
+            }
+          ],
+          "choices": [
+            {
+              "id": "c2_p25_end",
+              "text": "结束本章",
+              "nextParagraphs": []
+            }
+          ]
+        },
+        {
+          "id": "p2-26",
+          "parts": [
+            {
+              "type": "dialogue",
+              "speaker": "赵闻珂（我）",
+              "text": "最近太湖发大水，我已经派了人去赈灾。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "顾宴清",
+              "text": "陛下仁政，灾民一定会感激的。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "赵闻珂（我）",
+              "text": "这都是为了天下百姓，也为了你和孩子能有一个安稳的未来。"
+            }
+          ],
+          "choices": [
+            {
+              "id": "c2_p26_end",
+              "text": "结束本章",
+              "nextParagraphs": []
+            }
+          ]
+        },
+        {
+          "id": "p2-27",
+          "parts": [
+            {
+              "type": "dialogue",
+              "speaker": "赵闻珂（我）",
+              "text": "你最近可有什么想做的事？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "顾宴清",
+              "text": "臣妾只希望能一直陪在陛下身边。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "赵闻珂（我）",
+              "text": "我也是。"
+            }
+          ],
+          "choices": [
+            {
+              "id": "c2_p27_end",
+              "text": "结束本章",
+              "nextParagraphs": []
+            }
+          ]
+        },
+        {
+          "id": "p2-28",
+          "parts": [
+            {
+              "type": "dialogue",
+              "speaker": "赵闻珂（我）",
+              "text": "从那天起，我就喜欢上了你。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "顾宴清",
+              "text": "陛下...臣妾何德何能..."
+            },
+            {
+              "type": "dialogue",
+              "speaker": "赵闻珂（我）",
+              "text": "你值得所有的美好。"
+            }
+          ],
+          "choices": [
+            {
+              "id": "c2_p28_end",
+              "text": "结束本章",
+              "nextParagraphs": []
+            }
+          ]
+        },
+        {
+          "id": "p2-29",
+          "parts": [
+            {
+              "type": "dialogue",
+              "speaker": "赵闻珂（我）",
+              "text": "谢谢你，当年为我解围。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "顾宴清",
+              "text": "那是臣妾应该做的。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "赵闻珂（我）",
+              "text": "不，对我来说，那是改变我一生的事。"
+            }
+          ],
+          "choices": [
+            {
+              "id": "c2_p29_end",
+              "text": "结束本章",
+              "nextParagraphs": []
+            }
+          ]
+        },
+        {
+          "id": "p2-30",
+          "parts": [
+            {
+              "type": "dialogue",
+              "speaker": "顾宴清",
+              "text": "陛下...臣妾...也喜欢您。"
+            },
+            {
+              "type": "narration",
+              "text": "他的声音很小，却很坚定。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "赵闻珂（我）",
+              "text": "真的吗？"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "顾宴清",
+              "text": "嗯...从很久之前就开始了。"
+            }
+          ],
+          "choices": [
+            {
+              "id": "c2_p30_end",
+              "text": "结束本章",
+              "nextParagraphs": []
+            }
+          ]
+        },
+        {
+          "id": "p2-31",
+          "parts": [
+            {
+              "type": "narration",
+              "text": "我握住他的手，他的手很凉，却很柔软。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "赵闻珂（我）",
+              "text": "我知道这对你来说不容易，但我会等你。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "顾宴清",
+              "text": "陛下..."
+            },
+            {
+              "type": "dialogue",
+              "speaker": "赵闻珂（我）",
+              "text": "无论多久，我都等你。"
+            }
+          ],
+          "choices": [
+            {
+              "id": "c2_p31_end",
+              "text": "结束本章",
+              "nextParagraphs": []
+            }
+          ]
+        },
+        {
+          "id": "p2-32",
+          "parts": [
+            {
+              "type": "narration",
+              "text": "我轻轻拍着他的背，安慰着他。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "赵闻珂（我）",
+              "text": "哭吧，哭出来就好了。"
+            },
+            {
+              "type": "dialogue",
+              "speaker": "顾宴清",
+              "text": "陛下...我...我也喜欢你..."
+            },
+            {
+              "type": "narration",
+              "text": "他的声音哽咽，却充满了真诚。"
+            }
+          ],
+          "choices": [
+            {
+              "id": "c2_p32_end",
+              "text": "结束本章",
+              "nextParagraphs": []
+            }
+          ]
+        }
+      ],
+      "extendedParagraphs": []
+    }
+  ]
+}

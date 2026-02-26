@@ -18,6 +18,17 @@ export const methods = {
     // 加载小说
     async loadNovel(id) {
         try {
+            // 清空之前的状态
+            this.currentNovel = null;
+            this.currentChapter = null;
+            this.messages = [];
+            this.currentChoices = [];
+            this.pendingChoices = [];
+            this.paragraphQueue = [];
+            this.isTyping = false;
+            this.selectedCharacter = null;
+            this.showProfileModal = false;
+            
             const res = await fetch(`/${id}.json`);
             if (!res.ok) throw new Error('Failed to load novel');
             this.currentNovel = await res.json();
@@ -114,11 +125,13 @@ export const methods = {
     // 处理选择
     handleChoice(choice) {
         this.currentChoices = [];
+        // 获取当前小说的主角名称，默认为'我'
+        const protagonistName = this.currentNovel?.characters?.find(c => c.name.includes('（我）'))?.name || '我';
         this.messages.push({
             id: Date.now(),
             type: 'dialogue',
             text: choice.text,
-            speaker: '我',
+            speaker: protagonistName,
             sourceType: 'choice', // 区分是用户点击的选项还是故事的对话
             isUser: true
         });

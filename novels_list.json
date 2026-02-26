@@ -1,21 +1,23 @@
 [
   {
-    "id": "kira-genesis",
-    "title": "Kira: Genesis",
-    "author": "System",
+    "id": "kira-world",
+    "title": "kira的世界",
+    "author": "kira",
     "cover": "/assets/images/covers/kira-genesis.jpg",
-    "description": "The awakening of a new consciousness.",
+    "description": "欢迎来到kira的世界，一个专为女性GB爱好者构建的虚拟社区。在这里，你可以穿越不同的世界线，攻略各种魅力男主，创造属于你的浪漫故事。",
     "tags": [
-      "Sci-Fi",
-      "AI",
-      "Origin"
+      "女性向",
+      "GB",
+      "穿越",
+      "攻略",
+      "虚拟社区"
     ],
     "status": "Completed"
   },
   {
     "id": "broken-android",
     "title": "被当做零钱抵给你的抹布仿生人",
-    "author": "佚名",
+    "author": "九品芝麻糊",
     "cover": "/assets/images/covers/broken-android.jpg",
     "description": "在这个钢铁都市里，你意外收留了一个被当做垃圾的漂亮仿生人。他身上的伤痕和眼底的微光，会如何改变你冰冷的生活？",
     "tags": [
@@ -25,5 +27,20 @@
       "纯爱"
     ],
     "status": "Completed"
+  },
+  {
+    "id": "emperor-consort",
+    "title": "新帝 x 大肚子的前皇夫",
+    "author": "抹茶红豆派派派",
+    "cover": "/assets/images/covers/emperor-consort.jpg",
+    "description": "先帝驾崩，新帝即位，而在先帝去时便已有孕的皇夫顾宴清，成了新朝一个尴尬的存在。新帝赵闻珂对他关怀备至，这份温柔背后究竟藏着怎样的情感？",
+    "tags": [
+      "古风",
+      "宫廷",
+      "GB",
+      "帝王",
+      "孕夫"
+    ],
+    "status": "Incomplete"
   }
 ]

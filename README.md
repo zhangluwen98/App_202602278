@@ -140,4 +140,15 @@ This project is configured for **Cloudflare Pages**.
 5. Submit a pull request
 
 ## License
-MIT License - see the LICENSE file for details.
+Non-commercial, proprietary license - see the LICENSE file for details.
+
+## Domain Configuration
+
+The project's domain is stored in the global configuration variable `CONFIG.domain` in the `public/index.html` file. To modify the domain, edit the value of this variable.
+
+```javascript
+// Global configuration
+const CONFIG = {
+    domain: 'https://app.kiragb.com/'
+};
+```

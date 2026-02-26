@@ -95,11 +95,11 @@
                         </template>
 
                         <!-- Protagonist's Dialogue in Story -->
-                        <template x-if="msg.type === 'dialogue' && msg.speaker === '我' && !msg.sourceType">
+                        <template x-if="msg.type === 'dialogue' && msg.speaker && !msg.sourceType">
                             <div class="flex flex-row-reverse items-end gap-2 my-2">
                                 <div class="w-8 h-8 rounded-full bg-gradient-to-br from-blue-400 to-blue-600 flex items-center justify-center text-white text-xs font-bold shadow-sm">我</div>
                                 <div class="flex flex-col gap-1 max-w-[75%]">
-                                    <span class="text-[10px] text-gray-400 text-right mr-1">我</span>
+                                    <span class="text-[10px] text-gray-400 text-right mr-1" x-text="msg.speaker"></span>
                                     <div class="bg-gradient-to-br from-blue-50 to-blue-100 text-gray-800 rounded-2xl rounded-br-none px-4 py-2.5 shadow-sm border border-blue-200">
                                         <span class="text-sm leading-relaxed" x-text="msg.text"></span>
                                     </div>
