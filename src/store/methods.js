@@ -91,7 +91,9 @@ export const methods = {
     processQueue() {
         if (this.paragraphQueue.length === 0) {
             if (this.pendingChoices.length > 0) {
-                this.currentChoices = this.pendingChoices;
+                this.currentChoices = [...this.pendingChoices];
+                // 清空pendingChoices，避免重复显示
+                this.pendingChoices = [];
             } else {
                 // 自动下一步或"点击继续"逻辑可以在这里
             }
@@ -140,6 +142,18 @@ export const methods = {
         // 检查亲密关系更新
         checkIntimacy(this, choice.id);
 
+        // 处理action属性
+        if (choice.action) {
+            if (choice.action === 'redirect' && choice.url) {
+                // 重定向到指定URL
+                setTimeout(() => {
+                    window.location.href = choice.url;
+                }, 800);
+                return;
+            }
+        }
+
+        // 处理nextParagraphs
         const nextId = choice.nextParagraphs[0];
         const nextPara = this.findParagraph(nextId);
         
