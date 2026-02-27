@@ -29,7 +29,7 @@ export const methods = {
             this.selectedCharacter = null;
             this.showProfileModal = false;
             
-            const res = await fetch(`/${id}.json`);
+            const res = await fetch(`/novels/${id}.json`);
             if (!res.ok) throw new Error('Failed to load novel');
             this.currentNovel = await res.json();
 
