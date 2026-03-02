@@ -57,5 +57,20 @@
       "酒吧"
     ],
     "status": "Incomplete"
+  },
+  {
+    "id": "medicine-fate",
+    "title": "药缘",
+    "author": "深深",
+    "cover": "/assets/images/covers/medicine-fate.jpg",
+    "description": "魔教覆灭后，药修女主沈当归在地窖中捡到了一个被下了二十七种毒的药人。一段关于研究与救赎的故事就此展开。",
+    "tags": [
+      "古风",
+      "玄幻",
+      "药修",
+      "救赎",
+      "GB"
+    ],
+    "status": "Incomplete"
   }
 ]

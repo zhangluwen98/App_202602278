@@ -125,6 +125,18 @@
                                 </div>
                             </div>
                         </template>
+
+                        <!-- Image -->
+                        <template x-if="msg.type === 'image'">
+                            <div class="flex justify-center my-4">
+                                <div class="max-w-[85%] rounded-xl overflow-hidden shadow-md border border-gray-200">
+                                    <img :src="msg.url" :alt="msg.description" class="w-full h-auto object-cover">
+                                    <div class="bg-white p-2">
+                                        <p class="text-xs text-gray-500 text-center" x-text="msg.description"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </template>
                     </div>
                 </template>
 

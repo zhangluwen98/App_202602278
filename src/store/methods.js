@@ -62,6 +62,10 @@ export const methods = {
         if (!chapter) return;
         this.currentChapter = chapter;
         this.messages = [];
+        this.currentChoices = [];
+        this.pendingChoices = [];
+        this.paragraphQueue = [];
+        this.isTyping = false;
         
         // 从第一个段落开始
         const firstPara = chapter.paragraphs[0];

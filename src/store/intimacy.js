@@ -68,10 +68,18 @@ export function initializeIntimacy(store, novelId, characters) {
     }
     
     characters.forEach(c => {
+        // 确保角色对象有必要的属性
+        if (!c.relationships) {
+            c.relationships = {
+                current: c.intimacy?.currentStatus || '初识',
+                history: []
+            };
+        }
+        
         if (!store.intimacy[novelId][c.id]) {
             store.intimacy[novelId][c.id] = {
-                status: c.intimacy.currentStatus,
-                value: c.intimacy.value || 0
+                status: c.intimacy?.currentStatus || '初识',
+                value: c.intimacy?.value || 0
             };
         }
 

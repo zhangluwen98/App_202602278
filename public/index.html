@@ -201,6 +201,18 @@
                                 </div>
                             </div>
                         </template>
+
+                        <!-- Image -->
+                        <template x-if="msg.type === 'image'">
+                            <div class="flex justify-center my-4">
+                                <div class="max-w-[85%] rounded-xl overflow-hidden shadow-md border border-gray-200">
+                                    <img :src="msg.url" :alt="msg.description" class="w-full h-auto object-cover">
+                                    <div class="bg-white p-2">
+                                        <p class="text-xs text-gray-500 text-center" x-text="msg.description"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </template>
                     </div>
                 </template>
                 
@@ -410,15 +422,22 @@
 
                     const part = this.paragraphQueue.shift();
                     
-                    // Only show typing indicator for dialogue, not for narration
+                    // Only show typing indicator for dialogue, not for narration or images
                     if (part.type === 'dialogue') {
                         this.currentSpeaker = part.speaker;
                         this.isTyping = true;
                         this.scrollToBottom();
                     }
 
-                    // Simulate typing delay based on text length
-                    const delay = part.type === 'narration' ? 300 : Math.min(1500, Math.max(800, part.text.length * 30));
+                    // Simulate typing delay based on content type
+                    let delay;
+                    if (part.type === 'narration') {
+                        delay = 300;
+                    } else if (part.type === 'image') {
+                        delay = 500; // Shorter delay for images
+                    } else {
+                        delay = Math.min(1500, Math.max(800, part.text.length * 30));
+                    }
                     
                     setTimeout(() => {
                         this.isTyping = false;
@@ -429,6 +448,8 @@
                             type: part.type,
                             text: part.text,
                             speaker: part.speaker,
+                            url: part.url,
+                            description: part.description,
                             isUser: false // Narrative/NPC is never user for now
                         };
                         
